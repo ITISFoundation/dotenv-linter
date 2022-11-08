@@ -21,7 +21,7 @@ class ValueVisitor(BaseFSTVisitor):
             SpacedValueViolation
 
         """
-        self._check_value_quotes(node)
+        #self._check_value_quotes(node)
         self._check_value_spaces(node)
         self.generic_visit(node)
 
